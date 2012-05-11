@@ -1,0 +1,31 @@
+h1
+{
+font-family: Brush Script MT, sans-serif;
+font-size: 72px;
+color: #e55b1f;
+}
+
+body
+{
+background-color: #6b6868
+}
+
+a:link{
+	color: #1d00f8;
+}
+
+a:visited{
+	color: #00f863;
+}
+
+a:hover{
+	color: #f80029;
+}
+
+a:active{
+	color: #1d00f8;
+}
+
+body{
+  width:790px;
+}
