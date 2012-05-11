@@ -1,31 +1,77 @@
-h1
-{
-font-family: Brush Script MT, sans-serif;
-font-size: 72px;
-color: #e55b1f;
+body {
+  color: #323232;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 790px;
+  margin: 0 auto;
+  background-image: url(../images/global_bg.jpg);
+  background-color: #cdcdcd;
+  background-repeat: repeat-x;
 }
 
-body
+h1,h2
 {
-background-color: #6b6868
+font-family:  'Berkshire Swash', cursive; 
 }
 
 a:link{
-	color: #1d00f8;
+   color: #040afd;
 }
 
 a:visited{
-	color: #00f863;
+   color: #e60036
 }
 
 a:hover{
-	color: #f80029;
+   color: #12e095
 }
 
 a:active{
-	color: #1d00f8;
+   color: #7c12e0
 }
 
-body{
-  width:790px;
+ul {
+   width: 300px;
+   margin: 0 auto;
+   list-style-type: none;
+   padding: 0;
+   overflow: hidden;
 }
+
+.demo {
+    width: 100px;
+    background: silver;
+    float: left;
+}
+
+a {
+   text-decoration: none;
+   background: #ddd;
+   display: block;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   color: #d0000d;
+}
+
+a:hover {
+   color: #fff;
+   background: #d0000d;
+}
+
+div {
+   -moz-column-count:3;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px #111;
+  font-size: 60px;
+}
+
+
+
+
+
+
+   
